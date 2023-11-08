@@ -8,4 +8,4 @@ def Hanoi(numberOfDisks, fromRod, toRod, auxRod):
     
     
     
-Hanoi(3, 'A', 'c', 'B')
+Hanoi(4, 'A', 'c', 'B')
