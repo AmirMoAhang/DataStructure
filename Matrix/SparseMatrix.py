@@ -13,7 +13,7 @@ def sparseMatrix(sparce, n):
 
 
 # begin just for test
-zart = sparseMatrix([
+compactMatrix = sparseMatrix([
     [5, 0, 0, 10, 0, -5],
     [0, 12, 4, 0, 0, 0],
     [0, 0, 0, -8, 0, 0],
@@ -22,7 +22,7 @@ zart = sparseMatrix([
     [0, 0, 45, 0, 0, 0]
 ], 6)
 
-for i in range(len(zart)):
-    print(zart[i])
+for i in range(len(compactMatrix)):
+    print(compactMatrix[i])
 
 # end
